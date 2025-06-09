@@ -1,0 +1,10 @@
+[project]
+name = "helix"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "textual>=3.3.0",
+    "textual-dev>=1.7.0",
+]
