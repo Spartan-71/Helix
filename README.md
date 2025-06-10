@@ -37,13 +37,11 @@ Stay tuned for the first beta release — coming soon!
 - [ ] Keyboard Shortcuts (Vim-style navigation)
 - [ ] Export Chats (Markdown, JSON, HTML)
 
----
 
 ## 💡 Why Helix?
 
 Just like the double helix structure of DNA, this project weaves together the raw power of terminals and the evolving intelligence of LLMs — forming a beautifully minimal, developer-first chat experience.
 
----
 
 ## 📦 Installation
 
@@ -56,3 +54,13 @@ git clone https://github.com/your-username/helix.git
 cd helix
 python app.py
 ```
+
+## 🤝 Contributing
+
+We’ll soon open up issues and contribution guidelines. If you're interested in helping, feel free to ⭐ the repo and watch for updates!
+
+## 📜 License
+
+Apache License 2.0 — Free to use, modify, and distribute, with proper attribution and a focus on contribution transparency.
+
+You can read the full license [here](LICENSE).
