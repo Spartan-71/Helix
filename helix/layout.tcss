@@ -1,0 +1,45 @@
+#header {
+    dock: top;
+    height: 3;
+    color: $text;
+    content-align: center middle;
+    text-style: bold;
+    border: white tall;
+    background: $surface;
+}
+
+Screen {
+    layout: horizontal;
+}
+
+#chat-area {
+    width: 1fr;
+}
+
+#chat-container {
+    height: 1fr;
+    padding: 1;
+    background: $background;
+}
+
+#chat-display {
+    width: 100%;
+    height: 100%;
+    background: $surface;
+    border: grey tall;
+}
+
+#chat-input {
+    dock: bottom;
+    height: 3;
+    margin: 1;
+}
+
+Markdown {
+    padding: 1;
+}
+
+Markdown > * {
+    margin-bottom: 1;
+}
+

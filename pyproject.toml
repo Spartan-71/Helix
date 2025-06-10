@@ -1,10 +1,39 @@
 [project]
 name = "helix"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
+authors = [
+    {name = "Spartan-71",email="anishdabhane71@gmail.com"}
+]
+license = {file = "LICENSE"}
+
+keywords = [
+    "helix",
+    "Terminal",
+    "ai-chat",
+    "TUI"
+]
 readme = "README.md"
 requires-python = ">=3.13"
+
+project.urls = "https://github.com/Spartan-71/Helix"
+
 dependencies = [
+    "litellm>=1.72.2",
+    "ollama>=0.5.1",
     "textual>=3.3.0",
     "textual-dev>=1.7.0",
+]
+
+
+[project-scripts]
+helix = "helix:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
 ]
