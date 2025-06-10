@@ -1,22 +1,23 @@
 [project]
 name = "helix"
 version = "0.1.0"
-description = ""
+description = "Terminal-native AI chat interface"
 authors = [
-    {name = "Spartan-71",email="anishdabhane71@gmail.com"}
+    { name = "Spartan-71", email = "anishdabhane71@gmail.com" }
 ]
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 
 keywords = [
     "helix",
-    "Terminal",
+    "terminal",
     "ai-chat",
     "TUI"
 ]
-readme = "README.md"
-requires-python = ">=3.13"
 
-project.urls = "https://github.com/Spartan-71/Helix"
+readme = "README.md"
+requires-python = ">=3.8"
+
+project.urls="https://github.com/Spartan-71/Helix"
 
 dependencies = [
     "litellm>=1.72.2",
@@ -25,13 +26,15 @@ dependencies = [
     "textual-dev>=1.7.0",
 ]
 
-
-[project-scripts]
-helix = "helix:main"
+[project.scripts]
+helix = "helix.app:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [dependency-groups]
 dev = [
