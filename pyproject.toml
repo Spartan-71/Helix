@@ -1,6 +1,6 @@
 [project]
 name = "helix_chat"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Terminal-native AI chat interface"
 authors = [
     { name = "Spartan-71", email = "anishdabhane71@gmail.com" }
