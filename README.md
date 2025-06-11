@@ -2,7 +2,7 @@
 
 <div>
   <p align="center">
-    <i>A blazing-fast, terminal-native AI chat interface — talk to any LLM, right from your shell.</i>
+    <i>A terminal-native AI chat interface — talk to any LLM, right from your shell.</i>
   </p>
 </div>
 
@@ -45,15 +45,11 @@ Just like the double helix structure of DNA, this project weaves together the ra
 
 ## 📦 Installation
 
-> 🚀 Coming soon: `pip install helix-chat`
+Download: `pip install helix-chat`
 
-For now, clone the repo and stay tuned for updates!
+Launch: `helix`
 
-```bash
-git clone https://github.com/your-username/helix.git
-cd helix
-python app.py
-```
+>Make sure you have ollama/llama3 model pulled locally, since helix uses that by default.
 
 ## 🤝 Contributing
 
