@@ -1,10 +1,11 @@
 from textual.app import App
 from textual.binding import Binding
 
-from helix.config import load_config
-from helix.models import SessionManager
-from helix.llm_client import LLMClient
-from helix.ui.screens import ChatScreen
+from .config import load_config
+from .models import SessionManager
+from .llm_client import LLMClient
+from .ui.screens import ChatScreen
+
 
 class HelixApp(App):
     """Main Helix application"""

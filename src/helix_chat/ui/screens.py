@@ -36,7 +36,7 @@ class ChatScreen(Screen):
                 id="chat-container"
             )
             yield ChatInput(id="chat-input")
-        # yield Footer()
+        yield Footer()
     
     def on_mount(self) -> None:
         """Focus input on mount"""

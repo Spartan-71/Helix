@@ -1,7 +1,7 @@
 [project]
-name = "helix"
+name = "helix_chat"
 version = "0.1.0"
-description = "Terminal-native AI chat interface"
+description = "A Terminal-native AI chat interface"
 authors = [
     { name = "Spartan-71", email = "anishdabhane71@gmail.com" }
 ]
@@ -15,7 +15,7 @@ keywords = [
 ]
 
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 
 project.urls="https://github.com/Spartan-71/Helix"
 
@@ -26,17 +26,14 @@ dependencies = [
     "textual-dev>=1.7.0",
 ]
 
+[project.optional-dependencies]
+dev = ["pre-commit"]
+
 [project.scripts]
-helix = "helix.app:main"
+helix = "helix_chat.app:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[dependency-groups]
-dev = [
-    "pre-commit>=4.2.0",
-]
+requires-python = ">3.10"
